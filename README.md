@@ -10,8 +10,46 @@
 ## Business Problem
 ## Data
 ## Methods
-
 ### Cleaning and EDA
+# SQL QUERIES
+
+#### Obtaining `Earliest Date` in dataset
+```
+SELECT MIN(timestamp) 
+FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisions`
+LIMIT 10
+```
+
+#### Obtaining `Latest Date` in dataset
+```
+SELECT MAX (timestamp) 
+FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisions`
+LIMIT 10
+```
+
+#### Obtaining the `Total` number of rows in entire dataset
+```
+SELECT COUNT (*)
+FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisions`
+LIMIT 10
+```
+
+#### Checking for Duplicate Values based on Primary key
+```
+SELECT unique_key, COUNT (unique_key) 
+FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisions`
+GROUP BY unique_key
+HAVING COUNT (unique_key)>1
+LIMIT 10
+```
+
+#### Obtaining Total Number of in Dataset from 2012 to 2022 for New York
+#### Obtain Total Number of in Dataset from 2012 to 2022 for Queens
+#### Top Contributing Factors to `Collisions` for `New York` from 2012 to 2023
+#### Top Contributing Factors to `Collisions` for `Queens` from 2012 to 2023
+
+
+
 ### Regression Models to Explore Relationship Between Home Values and Airbnbs
 ### Time Series Models to Predict Future Home Values
 ## Results
