@@ -44,11 +44,47 @@ LIMIT 10
 ```
 
 #### Obtaining Total Number of in Dataset from 2012 to 2022 for New York
+```
+SELECT COUNT(*)
+FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisions`
+WHERE TIMESTAMP >='2012-01-01' AND TIMESTAMP <= '2022-12-31' 
+LIMIT 1000
+```
+
 #### Obtain Total Number of in Dataset from 2012 to 2022 for Queens
+```
+SELECT COUNT(*)
+FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisions`
+WHERE borough ='QUEENS' AND TIMESTAMP >='2012-01-01' AND TIMESTAMP <= '2022-12-31' 
+LIMIT 1000
+```
+
 #### Top Contributing Factors to `Collisions` for `New York` from 2012 to 2023
+```
+SELECT contributing_factor_vehicle_1, COUNT(contributing_factor_vehicle_1) AS COUNT
+FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisions`
+WHERE TIMESTAMP >='2012-01-01' AND TIMESTAMP <= '2022-12-31'
+GROUP BY contributing_factor_vehicle_1
+ORDER BY COUNT DESC 
+LIMIT 1000
+```
+
 #### Top Contributing Factors to `Collisions` for `Queens` from 2012 to 2023
+```
+SELECT contributing_factor_vehicle_1, COUNT(contributing_factor_vehicle_1) AS COUNT
+FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisions`
+WHERE borough ='QUEENS' AND TIMESTAMP >='2012-01-01' AND TIMESTAMP <= '2022-12-31'
+GROUP BY contributing_factor_vehicle_1
+ORDER BY COUNT DESC 
+LIMIT 1000
+```
 
-
+#### DOWNLODING THE RAW DATA FOR EXPORT TO POWERBI
+```
+SELECT *
+FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisions`
+WHERE TIMESTAMP >='2012-01-01' AND TIMESTAMP <= '2022-12-31' 
+```
 
 ### Regression Models to Explore Relationship Between Home Values and Airbnbs
 ### Time Series Models to Predict Future Home Values
