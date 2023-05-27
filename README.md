@@ -86,20 +86,7 @@ FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisio
 WHERE TIMESTAMP >='2012-01-01' AND TIMESTAMP <= '2022-12-31' 
 ```
 
-### Regression Models to Explore Relationship Between Home Values and Airbnbs
-### Time Series Models to Predict Future Home Values
 ## Results
 ## Conclusions
 ## Next Steps
 
-## Repository Structure 
-
-
-```
-├── README.md                                     <- The top-level README for reviewers of this project
-├── notebooks                                     <- Jupyter notebooks containing cleaning, EDA and modeling analyses
-├── models                                        <- final classification models
-├── nashville_airbnb_housing_presentation.pdf     <- PDF version of project presentation
-├── cleaned_data                                  <- Cleaned data generated from code
-└── images                                        <- Both sourced externally and generated from code
-```
