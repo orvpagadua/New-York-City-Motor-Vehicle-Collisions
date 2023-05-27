@@ -86,7 +86,9 @@ FROM `bigquery-public-data-368005.nypd_motor_vehicle_collisions.nypd_mv_collisio
 WHERE TIMESTAMP >='2012-01-01' AND TIMESTAMP <= '2022-12-31' 
 ```
 
-## Results
+## Final Dashboard
+[NEWYORKMOTORCOLLISIONS.pdf](https://github.com/orvpagadua/New-York-City-Motor-Vehicle-Collisions/files/11581991/NEWYORKMOTORCOLLISIONS.pdf)
+
 ## Conclusions
 ## Next Steps
 
