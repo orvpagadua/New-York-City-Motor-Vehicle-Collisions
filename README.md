@@ -20,13 +20,13 @@ This dataset forms the cornerstone of our analysis, enabling us to identify tren
 As we progress through this presentation, we will delve deeper into the insights and knowledge that this dataset offers, allowing us to make informed recommendations and work collectively toward a safer urban environment.
 
 ## Approach
-
+```
     THE PROBLEM -Have a good understanding of the problem statement - "How to reduce deaths and accidents in Brooklyn" based on 2012 - 2022 data.
     PREP THE DATA - Got clarity of dataset, performed data cleaning (Duplicate entries, Null Values etc.) and exploratory data analysis using SQL queries 
   DEEP DIVE - Prepped data & analyzed top collision causes. Carried out time series analysis & fatality analysis on different   categories of road users 
   INSIGHTS - Results were presented in a dashboard using PowerBI to allow stakeholders interact with the data and get more insights.
   RECOMMENDATIONS - Provided recommendations based on insights obtained from the deep-dive for implementation. 
-
+```
 
 # SQL QUERIES
 
