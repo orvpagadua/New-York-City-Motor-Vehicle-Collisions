@@ -1,4 +1,4 @@
-# Making Queens Roads Safer
+<img width="1132" alt="image" src="https://github.com/orvpagadua/New-York-City-Motor-Vehicle-Collisions/assets/122549893/94e5ad5b-69f9-442f-b1d8-d5f0ffaef613"># Making Queens Roads Safer
 
 ## *An In-depth Analysis into Motor Vehicle Collisions From 2012-2022*
 
@@ -6,11 +6,27 @@
 
 **Author**: Orville Pagaduan
 
-## Overview
-## Business Problem
-## Data
-## Methods
-### Cleaning and EDA
+## About the Dataset
+Dataset Source: NYC Open Data - Motor Vehicle Collisions - Crashes
+The foundation of our analysis lies in the extensive dataset obtained from NYC Open Data - specifically, the "Motor Vehicle Collisions - Crashes" dataset. This invaluable resource provides a comprehensive understanding of motor vehicle collision events within the five boroughs of New York City.
+Dataset Details:
+Each row in the dataset represents a unique crash event.
+The data encompasses information from all police-reported motor vehicle collisions in NYC.
+The dataset relies on the completion of the official police report form known as "MV104-AN," which is mandatory for collisions resulting in injuries, fatalities, or property damage exceeding $1000.
+Data Quality and Updates:
+It's important to note that the data is considered preliminary and may be subject to change. This can occur when the "MV-104AN" forms are updated to reflect revised crash details.
+For the most accurate and up-to-date statistics on traffic fatalities, we recommend referring to the NYPD Motor Vehicle Collisions page, which is updated on a weekly basis. Additionally, Vision Zero View provides monthly updates on relevant data.
+This dataset forms the cornerstone of our analysis, enabling us to identify trends, patterns, and contributing factors in motor vehicle collisions over the past decade. The quality and accuracy of this data are crucial in our mission to make NYC roads safer.
+As we progress through this presentation, we will delve deeper into the insights and knowledge that this dataset offers, allowing us to make informed recommendations and work collectively toward a safer urban environment.
+<img width="1440" alt="image" src="https://github.com/orvpagadua/New-York-City-Motor-Vehicle-Collisions/assets/122549893/f525039d-c2ac-45a3-9ac2-25c3dbd38df5">
+
+## Approach
+THE PROBLEM -Have a good understanding of the problem statement - "How to reduce deaths and accidents in Brooklyn" based on 2012 - 2022 data.
+PREP THE DATA - Got clarity of dataset, performed data cleaning (Duplicate entries, Null Values etc.) and exploratory data analysis using SQL queries 
+DEEP DIVE - Prepped data & analyzed top collision causes. Carried out time series analysis & fatality analysis on different categories of road users 
+INSIGHTS - Results were presented in a dashboard using PowerBI to allow stakeholders interact with the data and get more insights .
+RECOMMENDATIONS - Provided recommendations based on insights obtained from the deep-dive for implementation. 
+
 # SQL QUERIES
 
 #### Obtaining `Earliest Date` in dataset
