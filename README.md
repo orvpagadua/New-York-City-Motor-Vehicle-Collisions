@@ -105,6 +105,4 @@ WHERE TIMESTAMP >='2012-01-01' AND TIMESTAMP <= '2022-12-31'
 ## Final Dashboard
 <img width="1410" alt="image" src="https://github.com/orvpagadua/New-York-City-Motor-Vehicle-Collisions/assets/122549893/d256154a-dab6-4623-8e41-cdd6c7545b3a">
 
-## Conclusions
-## Next Steps
 
