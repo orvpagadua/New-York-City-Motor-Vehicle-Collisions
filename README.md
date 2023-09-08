@@ -18,7 +18,6 @@ It's important to note that the data is considered preliminary and may be subjec
 For the most accurate and up-to-date statistics on traffic fatalities, we recommend referring to the NYPD Motor Vehicle Collisions page, which is updated on a weekly basis. Additionally, Vision Zero View provides monthly updates on relevant data.
 This dataset forms the cornerstone of our analysis, enabling us to identify trends, patterns, and contributing factors in motor vehicle collisions over the past decade. The quality and accuracy of this data are crucial in our mission to make NYC roads safer.
 As we progress through this presentation, we will delve deeper into the insights and knowledge that this dataset offers, allowing us to make informed recommendations and work collectively toward a safer urban environment.
-<img width="1440" alt="image" src="https://github.com/orvpagadua/New-York-City-Motor-Vehicle-Collisions/assets/122549893/f525039d-c2ac-45a3-9ac2-25c3dbd38df5">
 
 ## Approach
 
