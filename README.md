@@ -28,6 +28,7 @@ DEEP DIVE - Prepped data & analyzed top collision causes. Carried out time serie
 INSIGHTS - Results were presented in a dashboard using PowerBI to allow stakeholders interact with the data and get more insights .
 RECOMMENDATIONS - Provided recommendations based on insights obtained from the deep-dive for implementation. 
 
+
 # SQL QUERIES
 
 #### Obtaining `Earliest Date` in dataset
