@@ -21,6 +21,7 @@ As we progress through this presentation, we will delve deeper into the insights
 <img width="1440" alt="image" src="https://github.com/orvpagadua/New-York-City-Motor-Vehicle-Collisions/assets/122549893/f525039d-c2ac-45a3-9ac2-25c3dbd38df5">
 
 ## Approach
+
 THE PROBLEM -Have a good understanding of the problem statement - "How to reduce deaths and accidents in Brooklyn" based on 2012 - 2022 data.
 PREP THE DATA - Got clarity of dataset, performed data cleaning (Duplicate entries, Null Values etc.) and exploratory data analysis using SQL queries 
 DEEP DIVE - Prepped data & analyzed top collision causes. Carried out time series analysis & fatality analysis on different categories of road users 
